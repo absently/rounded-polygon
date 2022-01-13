@@ -1,9 +1,22 @@
 {
   "name": "rounded-polygon",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "repository": "github:absently/rounded-polygon",
+  "description": "border-radius but for more than just boxes",
+  "keywords": [
+    "Bézier curves",
+    "border-radius",
+    "corners",
+    "polygon",
+    "shape",
+    "svg",
+    "rounded"
+  ],
+  "license": "MIT",
   "scripts": {
     "dev": "svelte-kit dev",
     "format": "prettier --write --plugin-search-dir=. . && eslint --ext .cjs,.js,.svelte --fix .",
+    "lint": "eslint --ext .cjs,.js,.svelte .",
     "build": "svelte-kit build",
     "package": "svelte-kit package",
     "preview": "svelte-kit preview"

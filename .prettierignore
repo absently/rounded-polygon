@@ -1,2 +1,4 @@
 .svelte-kit
+package
 pnpm-lock.yaml
+*.ts
