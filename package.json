@@ -13,6 +13,9 @@
     "rounded"
   ],
   "license": "MIT",
+  "publishConfig": {
+    "directory": "package"
+  },
   "scripts": {
     "dev": "svelte-kit dev",
     "format": "prettier --write --plugin-search-dir=. . && eslint --ext .cjs,.js,.svelte --fix .",
